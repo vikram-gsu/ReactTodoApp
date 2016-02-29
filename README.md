@@ -1,5 +1,5 @@
-react-hot-boilerplate
-=====================
+react-redux-devtools-boilerplate
+================================
 
 Dev environment with live-editing and devtools enabled
 
