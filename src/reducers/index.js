@@ -1,11 +1,10 @@
 import actions from '../actions'
+import {combineReducers} from 'redux'
+import todos from './todos'
+import visibilityFilter from './visibilityFilter'
 
-const reducer = (state={}, action) => {
-
-	// switch(action.type){
-	// 	case 
-	// }
-	return state
-}
+const reducer = combineReducers({todos, 
+											visibilityFilter})
+	
 
 export default reducer
